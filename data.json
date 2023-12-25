@@ -10,7 +10,8 @@
         "bdc2edc6-76fe-4df7-a627-3e8154d78392",
         "02224714-e99f-43aa-8626-c59aa73394ee",
         "40c06630-959b-4c36-8a74-b2aa5791e140"
-      ]
+      ],
+      "father": "2a06c1a2-67c4-4514-955b-8aa023fa59c9"
     },
     "data": {
       "first name": "Khasim Khan ",
@@ -129,7 +130,14 @@
     },
     "rels": {
       "father": "0",
-      "mother": "33cf09f0-e610-46a9-aac6-557923babf9b"
+      "mother": "33cf09f0-e610-46a9-aac6-557923babf9b",
+      "spouses": [
+        "c33db70a-038c-42d9-bf02-dcf844edc39f"
+      ],
+      "children": [
+        "0dd0afcb-1826-4bf3-98f0-1a68f18bd1dc",
+        "3d098dfa-2d23-42fe-949e-0c2d8ade9ef7"
+      ]
     }
   },
   {
@@ -480,6 +488,955 @@
     "rels": {
       "mother": "ef323125-337c-42fd-b318-123f8186c2d4",
       "father": "02224714-e99f-43aa-8626-c59aa73394ee"
+    }
+  },
+  {
+    "id": "c33db70a-038c-42d9-bf02-dcf844edc39f",
+    "data": {
+      "gender": "M",
+      "first name": "Muaz Alam",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "40c06630-959b-4c36-8a74-b2aa5791e140"
+      ],
+      "children": [
+        "0dd0afcb-1826-4bf3-98f0-1a68f18bd1dc",
+        "3d098dfa-2d23-42fe-949e-0c2d8ade9ef7"
+      ]
+    }
+  },
+  {
+    "id": "0dd0afcb-1826-4bf3-98f0-1a68f18bd1dc",
+    "data": {
+      "gender": "M",
+      "first name": "Mashhood Alam",
+      "last name": "Mohammad",
+      "birthday": "2003",
+      "deathyear": "",
+      "occupation": "Student",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "c33db70a-038c-42d9-bf02-dcf844edc39f",
+      "mother": "40c06630-959b-4c36-8a74-b2aa5791e140"
+    }
+  },
+  {
+    "id": "3d098dfa-2d23-42fe-949e-0c2d8ade9ef7",
+    "data": {
+      "gender": "M",
+      "first name": "Muqhtasid Alam",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Student",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "c33db70a-038c-42d9-bf02-dcf844edc39f",
+      "mother": "40c06630-959b-4c36-8a74-b2aa5791e140"
+    }
+  },
+  {
+    "id": "2a06c1a2-67c4-4514-955b-8aa023fa59c9",
+    "data": {
+      "gender": "M",
+      "first name": "Badal",
+      "last name": "Khan",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "7e2a6dbe-f081-4af3-b451-7f0468ba1d7b",
+        "2e8658fb-5c3c-4332-a274-0642615bda81",
+        "70812928-1486-4f88-bbe3-319d41486065",
+        "0",
+        "200d541e-5c19-424d-bb6f-fccba1ad8ac6",
+        "c5c49322-aa39-4de8-b640-66eae5ee6d15",
+        "5dd5042a-3e9b-438c-9ced-f4ce17e8a0ae"
+      ],
+      "spouses": [],
+      "father": "2a5d3845-3570-4d80-aa3d-d5f8056b1c17"
+    }
+  },
+  {
+    "id": "7e2a6dbe-f081-4af3-b451-7f0468ba1d7b",
+    "data": {
+      "gender": "F",
+      "first name": "Tahira",
+      "last name": "Begum",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2a06c1a2-67c4-4514-955b-8aa023fa59c9"
+    }
+  },
+  {
+    "id": "2e8658fb-5c3c-4332-a274-0642615bda81",
+    "data": {
+      "gender": "M",
+      "first name": "Sattar",
+      "last name": "Khan",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2a06c1a2-67c4-4514-955b-8aa023fa59c9",
+      "spouses": [
+        "5590a266-2ad2-454e-9275-3768d6206264"
+      ],
+      "children": [
+        "bae0af51-eff2-4991-b115-8f2e06e36d85",
+        "ced8e37d-e861-436e-a29c-41394529338a",
+        "943514bd-758a-4772-b493-3c27024a065e",
+        "ff92c0c4-7bbc-4515-8ecb-cfd5a0d7f59f",
+        "ea481cd4-bd04-447b-902e-bf7c3375ceb6"
+      ]
+    }
+  },
+  {
+    "id": "70812928-1486-4f88-bbe3-319d41486065",
+    "data": {
+      "gender": "M",
+      "first name": "Hamid",
+      "last name": "Khan",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2a06c1a2-67c4-4514-955b-8aa023fa59c9",
+      "spouses": [
+        "c3c983a6-d1af-4dff-8847-e91d465d3611"
+      ],
+      "children": [
+        "b8bb6025-f75d-46a2-afea-9fe0c57a4dbe",
+        "a42e0383-a292-473b-98a4-66cd26757a7e",
+        "e8852ea1-7ef3-45bf-be3e-f969931ff89b",
+        "d5409824-f2eb-444d-bc51-dd0415e00bc6"
+      ]
+    }
+  },
+  {
+    "id": "200d541e-5c19-424d-bb6f-fccba1ad8ac6",
+    "data": {
+      "gender": "M",
+      "first name": "Usman Ali",
+      "last name": "Khan",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Retd Prof.",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2a06c1a2-67c4-4514-955b-8aa023fa59c9",
+      "spouses": [
+        "3f0bc56d-9d4a-4ab5-9602-c08350d780f1"
+      ],
+      "children": [
+        "df1b6b98-1160-44a9-84b1-8ec3f3c138a2",
+        "4d34a701-83d8-4da6-b97e-facdf4478b52"
+      ]
+    }
+  },
+  {
+    "id": "c5c49322-aa39-4de8-b640-66eae5ee6d15",
+    "data": {
+      "gender": "F",
+      "first name": "Zahira",
+      "last name": "Bi",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2a06c1a2-67c4-4514-955b-8aa023fa59c9",
+      "spouses": [
+        "132396b4-defc-4176-a4d0-20a91db1ad29"
+      ],
+      "children": [
+        "f8d2c9fe-fe82-4dd3-8840-0e73c8bdda7e",
+        "673b08eb-e138-42af-a3fa-9d1f03611379",
+        "19062a88-d3bc-4925-ad03-9c4103d40332",
+        "18ab6926-c7d3-450f-a933-167ec90d6053",
+        "68f7ca4f-cbd3-442d-9f82-608caee339b9",
+        "a59d6a85-3848-4d80-9608-33840dc3ef1d"
+      ]
+    }
+  },
+  {
+    "id": "5dd5042a-3e9b-438c-9ced-f4ce17e8a0ae",
+    "data": {
+      "gender": "F",
+      "first name": "Azima",
+      "last name": "Bi",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2a06c1a2-67c4-4514-955b-8aa023fa59c9",
+      "spouses": [
+        "96f1e026-588c-400b-a0f4-73ffd531854d"
+      ],
+      "children": [
+        "fec6dd81-7ad1-4349-8f35-3945c8c2092f",
+        "bd28098d-d728-4bbf-920f-b94a8dafc012",
+        "f20881ae-5428-42df-a4e7-90ff4ce61738",
+        "61461ac1-a0fd-4a1a-bcc2-57dff037a7d4",
+        "c43ed129-1c1c-4ac7-9d6c-9f2ac841bd12"
+      ]
+    }
+  },
+  {
+    "id": "bae0af51-eff2-4991-b115-8f2e06e36d85",
+    "data": {
+      "gender": "F",
+      "first name": "Saleema",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "5590a266-2ad2-454e-9275-3768d6206264",
+      "father": "2e8658fb-5c3c-4332-a274-0642615bda81"
+    }
+  },
+  {
+    "id": "5590a266-2ad2-454e-9275-3768d6206264",
+    "data": {
+      "gender": "F"
+    },
+    "rels": {
+      "spouses": [
+        "2e8658fb-5c3c-4332-a274-0642615bda81"
+      ],
+      "children": [
+        "bae0af51-eff2-4991-b115-8f2e06e36d85",
+        "ced8e37d-e861-436e-a29c-41394529338a",
+        "943514bd-758a-4772-b493-3c27024a065e",
+        "ff92c0c4-7bbc-4515-8ecb-cfd5a0d7f59f",
+        "ea481cd4-bd04-447b-902e-bf7c3375ceb6"
+      ]
+    }
+  },
+  {
+    "id": "ced8e37d-e861-436e-a29c-41394529338a",
+    "data": {
+      "gender": "F",
+      "first name": "Kaleema",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "5590a266-2ad2-454e-9275-3768d6206264",
+      "father": "2e8658fb-5c3c-4332-a274-0642615bda81"
+    }
+  },
+  {
+    "id": "943514bd-758a-4772-b493-3c27024a065e",
+    "data": {
+      "gender": "F",
+      "first name": "Nayeema",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "5590a266-2ad2-454e-9275-3768d6206264",
+      "father": "2e8658fb-5c3c-4332-a274-0642615bda81"
+    }
+  },
+  {
+    "id": "ff92c0c4-7bbc-4515-8ecb-cfd5a0d7f59f",
+    "data": {
+      "gender": "M",
+      "first name": "Mustaq",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Telugu Pandit",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "5590a266-2ad2-454e-9275-3768d6206264",
+      "father": "2e8658fb-5c3c-4332-a274-0642615bda81"
+    }
+  },
+  {
+    "id": "ea481cd4-bd04-447b-902e-bf7c3375ceb6",
+    "data": {
+      "gender": "M",
+      "first name": "Nisar",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "5590a266-2ad2-454e-9275-3768d6206264",
+      "father": "2e8658fb-5c3c-4332-a274-0642615bda81"
+    }
+  },
+  {
+    "id": "b8bb6025-f75d-46a2-afea-9fe0c57a4dbe",
+    "data": {
+      "gender": "F",
+      "first name": "Shameem",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "c3c983a6-d1af-4dff-8847-e91d465d3611",
+      "father": "70812928-1486-4f88-bbe3-319d41486065"
+    }
+  },
+  {
+    "id": "c3c983a6-d1af-4dff-8847-e91d465d3611",
+    "data": {
+      "gender": "F"
+    },
+    "rels": {
+      "spouses": [
+        "70812928-1486-4f88-bbe3-319d41486065"
+      ],
+      "children": [
+        "b8bb6025-f75d-46a2-afea-9fe0c57a4dbe",
+        "a42e0383-a292-473b-98a4-66cd26757a7e",
+        "e8852ea1-7ef3-45bf-be3e-f969931ff89b",
+        "d5409824-f2eb-444d-bc51-dd0415e00bc6"
+      ]
+    }
+  },
+  {
+    "id": "a42e0383-a292-473b-98a4-66cd26757a7e",
+    "data": {
+      "gender": "M",
+      "first name": "Ayub",
+      "last name": "Khan",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "c3c983a6-d1af-4dff-8847-e91d465d3611",
+      "father": "70812928-1486-4f88-bbe3-319d41486065"
+    }
+  },
+  {
+    "id": "e8852ea1-7ef3-45bf-be3e-f969931ff89b",
+    "data": {
+      "gender": "M",
+      "first name": "Zakir ",
+      "last name": "Khan",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "c3c983a6-d1af-4dff-8847-e91d465d3611",
+      "father": "70812928-1486-4f88-bbe3-319d41486065"
+    }
+  },
+  {
+    "id": "d5409824-f2eb-444d-bc51-dd0415e00bc6",
+    "data": {
+      "gender": "F",
+      "first name": "Fatimah",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "c3c983a6-d1af-4dff-8847-e91d465d3611",
+      "father": "70812928-1486-4f88-bbe3-319d41486065"
+    }
+  },
+  {
+    "id": "df1b6b98-1160-44a9-84b1-8ec3f3c138a2",
+    "data": {
+      "gender": "M",
+      "first name": "Aslam",
+      "last name": "Khan",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "3f0bc56d-9d4a-4ab5-9602-c08350d780f1",
+      "father": "200d541e-5c19-424d-bb6f-fccba1ad8ac6"
+    }
+  },
+  {
+    "id": "3f0bc56d-9d4a-4ab5-9602-c08350d780f1",
+    "data": {
+      "gender": "F"
+    },
+    "rels": {
+      "spouses": [
+        "200d541e-5c19-424d-bb6f-fccba1ad8ac6"
+      ],
+      "children": [
+        "df1b6b98-1160-44a9-84b1-8ec3f3c138a2",
+        "4d34a701-83d8-4da6-b97e-facdf4478b52"
+      ]
+    }
+  },
+  {
+    "id": "4d34a701-83d8-4da6-b97e-facdf4478b52",
+    "data": {
+      "gender": "F",
+      "first name": "Shakeela",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "3f0bc56d-9d4a-4ab5-9602-c08350d780f1",
+      "father": "200d541e-5c19-424d-bb6f-fccba1ad8ac6"
+    }
+  },
+  {
+    "id": "f8d2c9fe-fe82-4dd3-8840-0e73c8bdda7e",
+    "data": {
+      "gender": "M",
+      "first name": "Rafiq",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Gooty",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "132396b4-defc-4176-a4d0-20a91db1ad29",
+      "mother": "c5c49322-aa39-4de8-b640-66eae5ee6d15"
+    }
+  },
+  {
+    "id": "132396b4-defc-4176-a4d0-20a91db1ad29",
+    "data": {
+      "gender": "M"
+    },
+    "rels": {
+      "spouses": [
+        "c5c49322-aa39-4de8-b640-66eae5ee6d15"
+      ],
+      "children": [
+        "f8d2c9fe-fe82-4dd3-8840-0e73c8bdda7e",
+        "673b08eb-e138-42af-a3fa-9d1f03611379",
+        "19062a88-d3bc-4925-ad03-9c4103d40332",
+        "18ab6926-c7d3-450f-a933-167ec90d6053",
+        "68f7ca4f-cbd3-442d-9f82-608caee339b9",
+        "a59d6a85-3848-4d80-9608-33840dc3ef1d"
+      ]
+    }
+  },
+  {
+    "id": "673b08eb-e138-42af-a3fa-9d1f03611379",
+    "data": {
+      "gender": "M",
+      "first name": "Mubarak",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "132396b4-defc-4176-a4d0-20a91db1ad29",
+      "mother": "c5c49322-aa39-4de8-b640-66eae5ee6d15"
+    }
+  },
+  {
+    "id": "19062a88-d3bc-4925-ad03-9c4103d40332",
+    "data": {
+      "gender": "M",
+      "first name": "Yusuf",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "132396b4-defc-4176-a4d0-20a91db1ad29",
+      "mother": "c5c49322-aa39-4de8-b640-66eae5ee6d15"
+    }
+  },
+  {
+    "id": "18ab6926-c7d3-450f-a933-167ec90d6053",
+    "data": {
+      "gender": "F",
+      "first name": "Asmath",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "132396b4-defc-4176-a4d0-20a91db1ad29",
+      "mother": "c5c49322-aa39-4de8-b640-66eae5ee6d15"
+    }
+  },
+  {
+    "id": "68f7ca4f-cbd3-442d-9f82-608caee339b9",
+    "data": {
+      "gender": "M",
+      "first name": "Babu",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "132396b4-defc-4176-a4d0-20a91db1ad29",
+      "mother": "c5c49322-aa39-4de8-b640-66eae5ee6d15"
+    }
+  },
+  {
+    "id": "a59d6a85-3848-4d80-9608-33840dc3ef1d",
+    "data": {
+      "gender": "M",
+      "first name": "Akhtar",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "132396b4-defc-4176-a4d0-20a91db1ad29",
+      "mother": "c5c49322-aa39-4de8-b640-66eae5ee6d15",
+      "spouses": [
+        "66dbe0d1-488a-40dc-806b-f056cfe97501"
+      ],
+      "children": [
+        "613edaa8-4802-4344-8988-ed33d18f6794",
+        "816e83ac-7f2a-41f3-8dbe-a29cae986449"
+      ]
+    }
+  },
+  {
+    "id": "613edaa8-4802-4344-8988-ed33d18f6794",
+    "data": {
+      "gender": "M",
+      "first name": "Khadar ",
+      "last name": "Wali",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "66dbe0d1-488a-40dc-806b-f056cfe97501",
+      "father": "a59d6a85-3848-4d80-9608-33840dc3ef1d"
+    }
+  },
+  {
+    "id": "66dbe0d1-488a-40dc-806b-f056cfe97501",
+    "data": {
+      "gender": "F"
+    },
+    "rels": {
+      "spouses": [
+        "a59d6a85-3848-4d80-9608-33840dc3ef1d"
+      ],
+      "children": [
+        "613edaa8-4802-4344-8988-ed33d18f6794",
+        "816e83ac-7f2a-41f3-8dbe-a29cae986449"
+      ]
+    }
+  },
+  {
+    "id": "816e83ac-7f2a-41f3-8dbe-a29cae986449",
+    "data": {
+      "gender": "M",
+      "first name": "",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "66dbe0d1-488a-40dc-806b-f056cfe97501",
+      "father": "a59d6a85-3848-4d80-9608-33840dc3ef1d"
+    }
+  },
+  {
+    "id": "fec6dd81-7ad1-4349-8f35-3945c8c2092f",
+    "data": {
+      "gender": "M",
+      "first name": "Mahboob ",
+      "last name": "Basha",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "96f1e026-588c-400b-a0f4-73ffd531854d",
+      "mother": "5dd5042a-3e9b-438c-9ced-f4ce17e8a0ae"
+    }
+  },
+  {
+    "id": "96f1e026-588c-400b-a0f4-73ffd531854d",
+    "data": {
+      "gender": "M"
+    },
+    "rels": {
+      "spouses": [
+        "5dd5042a-3e9b-438c-9ced-f4ce17e8a0ae"
+      ],
+      "children": [
+        "fec6dd81-7ad1-4349-8f35-3945c8c2092f",
+        "bd28098d-d728-4bbf-920f-b94a8dafc012",
+        "f20881ae-5428-42df-a4e7-90ff4ce61738",
+        "61461ac1-a0fd-4a1a-bcc2-57dff037a7d4",
+        "c43ed129-1c1c-4ac7-9d6c-9f2ac841bd12"
+      ]
+    }
+  },
+  {
+    "id": "bd28098d-d728-4bbf-920f-b94a8dafc012",
+    "data": {
+      "gender": "M",
+      "first name": "Azam",
+      "last name": "Basha",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "96f1e026-588c-400b-a0f4-73ffd531854d",
+      "mother": "5dd5042a-3e9b-438c-9ced-f4ce17e8a0ae"
+    }
+  },
+  {
+    "id": "f20881ae-5428-42df-a4e7-90ff4ce61738",
+    "data": {
+      "gender": "M",
+      "first name": "Javed",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "96f1e026-588c-400b-a0f4-73ffd531854d",
+      "mother": "5dd5042a-3e9b-438c-9ced-f4ce17e8a0ae"
+    }
+  },
+  {
+    "id": "61461ac1-a0fd-4a1a-bcc2-57dff037a7d4",
+    "data": {
+      "gender": "F",
+      "first name": "Madinah",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "96f1e026-588c-400b-a0f4-73ffd531854d",
+      "mother": "5dd5042a-3e9b-438c-9ced-f4ce17e8a0ae",
+      "spouses": [
+        "37bbd24a-0c79-442c-9b29-a735da273c5a"
+      ],
+      "children": [
+        "94cf67f7-50af-45eb-8e58-85dbb6037502",
+        "2710b135-01b9-41fc-b9e3-bf205fc282ae"
+      ]
+    }
+  },
+  {
+    "id": "c43ed129-1c1c-4ac7-9d6c-9f2ac841bd12",
+    "data": {
+      "gender": "M",
+      "first name": "Mansor",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "96f1e026-588c-400b-a0f4-73ffd531854d",
+      "mother": "5dd5042a-3e9b-438c-9ced-f4ce17e8a0ae",
+      "spouses": [
+        "e32c9653-b70d-4cea-8a83-e6af7818ab1e"
+      ],
+      "children": [
+        "e411911e-3ea9-4f73-85b8-1feed37a3fd1",
+        "e7629465-783c-40d9-be94-d2b866a0aa39"
+      ]
+    }
+  },
+  {
+    "id": "e411911e-3ea9-4f73-85b8-1feed37a3fd1",
+    "data": {
+      "gender": "M",
+      "first name": "Arshad",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "e32c9653-b70d-4cea-8a83-e6af7818ab1e",
+      "father": "c43ed129-1c1c-4ac7-9d6c-9f2ac841bd12"
+    }
+  },
+  {
+    "id": "e32c9653-b70d-4cea-8a83-e6af7818ab1e",
+    "data": {
+      "gender": "F"
+    },
+    "rels": {
+      "spouses": [
+        "c43ed129-1c1c-4ac7-9d6c-9f2ac841bd12"
+      ],
+      "children": [
+        "e411911e-3ea9-4f73-85b8-1feed37a3fd1",
+        "e7629465-783c-40d9-be94-d2b866a0aa39"
+      ]
+    }
+  },
+  {
+    "id": "e7629465-783c-40d9-be94-d2b866a0aa39",
+    "data": {
+      "gender": "M",
+      "first name": "Waseem",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "e32c9653-b70d-4cea-8a83-e6af7818ab1e",
+      "father": "c43ed129-1c1c-4ac7-9d6c-9f2ac841bd12"
+    }
+  },
+  {
+    "id": "94cf67f7-50af-45eb-8e58-85dbb6037502",
+    "data": {
+      "gender": "F",
+      "first name": "",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "37bbd24a-0c79-442c-9b29-a735da273c5a",
+      "mother": "61461ac1-a0fd-4a1a-bcc2-57dff037a7d4"
+    }
+  },
+  {
+    "id": "37bbd24a-0c79-442c-9b29-a735da273c5a",
+    "data": {
+      "gender": "M"
+    },
+    "rels": {
+      "spouses": [
+        "61461ac1-a0fd-4a1a-bcc2-57dff037a7d4"
+      ],
+      "children": [
+        "94cf67f7-50af-45eb-8e58-85dbb6037502",
+        "2710b135-01b9-41fc-b9e3-bf205fc282ae"
+      ]
+    }
+  },
+  {
+    "id": "2710b135-01b9-41fc-b9e3-bf205fc282ae",
+    "data": {
+      "gender": "M",
+      "first name": "",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Ortho Doctor",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "37bbd24a-0c79-442c-9b29-a735da273c5a",
+      "mother": "61461ac1-a0fd-4a1a-bcc2-57dff037a7d4"
+    }
+  },
+  {
+    "id": "2a5d3845-3570-4d80-aa3d-d5f8056b1c17",
+    "data": {
+      "gender": "M",
+      "first name": "Mahboob",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Forest Dept, Kollar",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "0d53cb6d-12f9-45b3-8595-d004b6516663",
+        "a495b22d-886c-4e12-ae38-28d110bccaa6",
+        "ad2446c1-8c2a-43b9-952b-93e443387f26",
+        "a6505c97-91af-4bf1-982a-9230864e3d99",
+        "34d68742-7e6b-4bd6-a07d-ebb25edcf81b",
+        "2a06c1a2-67c4-4514-955b-8aa023fa59c9",
+        "a0be23cd-d717-42b3-b3a9-1173757668ec"
+      ],
+      "spouses": [],
+      "father": "96eb871c-4f0a-4d87-affe-bf6755c499e0"
+    }
+  },
+  {
+    "id": "96eb871c-4f0a-4d87-affe-bf6755c499e0",
+    "data": {
+      "gender": "M",
+      "first name": "Hussein ",
+      "last name": "Saab",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "2a5d3845-3570-4d80-aa3d-d5f8056b1c17"
+      ],
+      "spouses": []
+    }
+  },
+  {
+    "id": "0d53cb6d-12f9-45b3-8595-d004b6516663",
+    "data": {
+      "gender": "M",
+      "first name": "Ibrahim",
+      "last name": "Khan",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2a5d3845-3570-4d80-aa3d-d5f8056b1c17"
+    }
+  },
+  {
+    "id": "a495b22d-886c-4e12-ae38-28d110bccaa6",
+    "data": {
+      "gender": "M",
+      "first name": "Madar",
+      "last name": "Khan",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2a5d3845-3570-4d80-aa3d-d5f8056b1c17"
+    }
+  },
+  {
+    "id": "ad2446c1-8c2a-43b9-952b-93e443387f26",
+    "data": {
+      "gender": "F",
+      "first name": "Solar",
+      "last name": "Bi",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2a5d3845-3570-4d80-aa3d-d5f8056b1c17"
+    }
+  },
+  {
+    "id": "a6505c97-91af-4bf1-982a-9230864e3d99",
+    "data": {
+      "gender": "F",
+      "first name": "Khaja Bi",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2a5d3845-3570-4d80-aa3d-d5f8056b1c17"
+    }
+  },
+  {
+    "id": "34d68742-7e6b-4bd6-a07d-ebb25edcf81b",
+    "data": {
+      "gender": "F",
+      "first name": "Mahboob ",
+      "last name": "Bi",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2a5d3845-3570-4d80-aa3d-d5f8056b1c17"
+    }
+  },
+  {
+    "id": "a0be23cd-d717-42b3-b3a9-1173757668ec",
+    "data": {
+      "gender": "M",
+      "first name": "Mastan",
+      "last name": "Khan",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2a5d3845-3570-4d80-aa3d-d5f8056b1c17"
     }
   }
 ]
