@@ -7,7 +7,10 @@
   <title>my-family-chart</title>
   <script src="https://unpkg.com/d3@6"></script>
   <script src="https://unpkg.com/family-chart"></script>
-  <link rel="stylesheet" href="./family-chart.css">  <!-- create file 'family-chart.css' in same directory, copy/paste css from examples/create-tree -->
+  <link rel="stylesheet" href="./family-chart.css">  
+  <!-- create file 'family-chart.css' in same directory, copy/paste css from examples/create-tree -->
+
+
 </head>
 <body>
   <div id="FamilyChart" class="f3"></div>
@@ -35,148 +38,20 @@
     store.setOnUpdate(props => view.update(props || {}))
     store.update.tree({initial: true})
     
-    function data() {
-      return [
-  {
-    "id": "0",
-    "rels": {
-      "spouses": [
-        "1ce3b3fe-0ed1-47f2-840a-a592e16ea868"
-      ],
-      "children": [
-        "6fbfdc15-110b-437e-a9ff-a1b90ca06a2d",
-        "5afc0964-8a28-4979-b4ee-9e24f1d225bc",
-        "3be97553-69d6-4e48-956e-1d1b2e8576c4",
-        "5315875f-e665-4ee2-b932-437b5bd05822"
-      ]
-    },
-    "data": {
-      "first name": "Khasim Khan ",
-      "last name": "Kutagulla",
-      "birthday": "1970",
-      "avatar": "https://static8.depositphotos.com/1009634/988/v/950/depositphotos_9883921-stock-illustration-no-user-profile-picture.jpg",
-      "gender": "M",
-      "Occupation": "Retired Chief Engineer (Electricty Board AP)"
-    }
-  },
-  {
-    "id": "6fbfdc15-110b-437e-a9ff-a1b90ca06a2d",
-    "data": {
-      "gender": "F",
-      "first name": "Asmath Ara",
-      "last name": "Kutagulla",
-      "birthday": "",
-      "avatar": "",
-      "Occupation": "Home Maker"
-    },
-    "rels": {
-      "father": "0",
-      "mother": "1ce3b3fe-0ed1-47f2-840a-a592e16ea868"
-    }
-  },
-  {
-    "id": "5afc0964-8a28-4979-b4ee-9e24f1d225bc",
-    "data": {
-      "gender": "F",
-      "first name": "Muneera Banu",
-      "last name": "Kutagulla",
-      "birthday": "",
-      "avatar": "",
-      "Occupation": "Home Maker"
-    },
-    "rels": {
-      "father": "0",
-      "mother": "1ce3b3fe-0ed1-47f2-840a-a592e16ea868"
-    }
-  },
-  {
-    "id": "3be97553-69d6-4e48-956e-1d1b2e8576c4",
-    "data": {
-      "gender": "M",
-      "first name": "Raheem Khan",
-      "last name": "Kutagulla",
-      "birthday": "",
-      "avatar": "",
-      "Occupation": "Software Engineer"
-    },
-    "rels": {
-      "father": "0",
-      "mother": "1ce3b3fe-0ed1-47f2-840a-a592e16ea868"
-    }
-  },
-  {
-    "id": "1ce3b3fe-0ed1-47f2-840a-a592e16ea868",
-    "data": {
-      "gender": "F",
-      "first name": "Sajida Begum",
-      "last name": "Kutagulla",
-      "birthday": "",
-      "avatar": "",
-      "Occupation": "Home Maker"
-    },
-    "rels": {
-      "spouses": [
-        "0"
-      ],
-      "children": [
-        "6fbfdc15-110b-437e-a9ff-a1b90ca06a2d",
-        "5afc0964-8a28-4979-b4ee-9e24f1d225bc",
-        "3be97553-69d6-4e48-956e-1d1b2e8576c4",
-        "5315875f-e665-4ee2-b932-437b5bd05822"
-      ]
-    }
-  },
-  {
-    "id": "5315875f-e665-4ee2-b932-437b5bd05822",
-    "data": {
-      "gender": "F",
-      "first name": "Rafath Hajira",
-      "last name": "Kutagulla",
-      "birthday": "",
-      "avatar": "",
-      "Occupation": "Home Maker"
-    },
-    "rels": {
-      "father": "0",
-      "mother": "1ce3b3fe-0ed1-47f2-840a-a592e16ea868",
-      "spouses": [
-        "a44f2ac4-fc5a-4325-8f34-e2bb0afa42ab"
-      ],
-      "children": [
-        "381267b1-5a4c-4924-b99a-b3b91408de2e"
-      ]
-    }
-  },
-  {
-    "id": "381267b1-5a4c-4924-b99a-b3b91408de2e",
-    "data": {
-      "gender": "M",
-      "first name": "Mashhood Alam",
-      "last name": "",
-      "birthday": "2002",
-      "avatar": "",
-      "Occupation": "Student"
-    },
-    "rels": {
-      "father": "a44f2ac4-fc5a-4325-8f34-e2bb0afa42ab",
-      "mother": "5315875f-e665-4ee2-b932-437b5bd05822"
-    }
-  },
-  {
-    "id": "a44f2ac4-fc5a-4325-8f34-e2bb0afa42ab",
-    "data": {
-      "gender": "M"
-    },
-    "rels": {
-      "spouses": [
-        "5315875f-e665-4ee2-b932-437b5bd05822"
-      ],
-      "children": [
-        "381267b1-5a4c-4924-b99a-b3b91408de2e"
-      ]
-    }
-  }
-]
+    async function data() {
+      try {
+        const response = await fetch('./data.json');
+        const data = await response.json();
+        // Ensure the data structure is compatible with f3's requirements
+        // (You might need to adjust this based on the structure of your JSON file)
+        // const formattedData = {
+        //   children: data     // Assuming the root nodes are directly in the "data" array
+        // };
+        return data;
+      } catch (error) {
+        console.error('Error fetching JSON data:', error);
+        throw error; // Re-throw the error for potential handling elsewhere
+      }
     }
   
   </script>
