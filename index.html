@@ -4,56 +4,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>my-family-chart</title>
-  <script src="https://unpkg.com/d3@6"></script>
-  <script src="https://unpkg.com/family-chart"></script>
-  <link rel="stylesheet" href="./family-chart.css">  
-  <!-- create file 'family-chart.css' in same directory, copy/paste css from examples/create-tree -->
+  <title>Usooluna أصولنا</title>
+  <!-- <link rel="shortcut icon" type="image/svg" href="/examples/logo.svg"> -->
+  <!-- <script src="https://unpkg.com/d3@6"></script>
+  <script src="https://unpkg.com/family-chart"></script> -->
+  <!-- <link rel="stylesheet" href="./family-chart.css">   -->
+  <script src="./plugins/d3.v6.js"></script>
+  <link rel="stylesheet" href="./styles/main.css">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            
 
 
 </head>
 <body>
-  <div id="FamilyChart" class="f3"></div>
-  <script type="module">
-    
-    const store = f3.createStore({
-        data: data(),
-        node_separation: 250,
-        level_separation: 150
-      }),
-      view = f3.d3AnimationView({
-        store,
-        cont: document.querySelector("#FamilyChart")
-      }),
-      Card = f3.elements.Card({
-        store,
-        svg: view.svg,
-        card_dim: {w:220,h:70,text_x:75,text_y:15,img_w:60,img_h:60,img_x:5,img_y:5},
-        card_display: [d => `${d.data['first name'] || ''} ${d.data['last name'] || ''}`,d => `${d.data['birthday'] || ''}`],
-        mini_tree: true,
-        link_break: false
-      })
-  
-    view.setCard(Card)
-    store.setOnUpdate(props => view.update(props || {}))
-    store.update.tree({initial: true})
-    
-    async function data() {
-      try {
-        const response = await fetch('./data.json');
-        const data = await response.json();
-        // Ensure the data structure is compatible with f3's requirements
-        // (You might need to adjust this based on the structure of your JSON file)
-        // const formattedData = {
-        //   children: data     // Assuming the root nodes are directly in the "data" array
-        // };
-        return data;
-      } catch (error) {
-        console.error('Error fetching JSON data:', error);
-        throw error; // Re-throw the error for potential handling elsewhere
-      }
-    }
-  
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">أصولنا</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="f3/create-tree/index.html">Add</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- <div id="FamilyChart" class="f3"></div> -->
+  <!-- <div id="FamilyChart" class="f3" style="height: 700px; max-height: calc(100vh - 80px); width: 900px;max-width:100%;margin: auto;position: relative"> -->
+  <div id="FamilyChart" class="f3" style="height: 100vh;width: 100vw;margin: auto;position: relative"></div>
+  </div>
+  <script src="./f3/my-f-tree.js" type="module"></script>
   </script>
 </body>
 </html>
