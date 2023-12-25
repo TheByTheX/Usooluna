@@ -17,7 +17,7 @@ fetch("./data.json").then(r => r.json()).then(data => {
       // card_display: [d => d.data.label || '', d => d.data.desc || ''],
       card_display: cardDisplayMultiLine(),
       mini_tree: true,
-      link_break: true
+      link_break: false
     })
 
   view.setCard(Card)
@@ -29,8 +29,8 @@ function cardDisplayMultiLine() {
   return [
     (d) => `
       <tspan x="0" dy="14" font-size="14">${d.data["first name"] || ""} ${d.data["last name"] || ""}</tspan>
-      <tspan x="0" dy="14" font-size="10">${d.data["birthday"] || ""}</tspan>
-      <tspan x="0" dy="14" font-size="10">${d.data["Occupation"] || ""}</tspan>
+      <tspan x="0" dy="14" font-size="10">${d.data["birthday"] || ""} ${d.data["deathyear"] || ""}</tspan>
+      <tspan x="0" dy="14" font-size="10">${d.data["occupation"] || ""}</tspan>
     `,
     () => ""
   ];

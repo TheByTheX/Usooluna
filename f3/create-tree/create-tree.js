@@ -104,6 +104,8 @@ function cardEditParams() {
     {type: 'text', placeholder: 'first name', key: 'first name'},
     {type: 'text', placeholder: 'last name', key: 'last name'},
     {type: 'text', placeholder: 'birthday', key: 'birthday'},
+    {type: 'text', placeholder: 'deathyear', key: 'deathyear'},
+    {type: 'text', placeholder: 'occupation', key: 'occupation'},
     {type: 'text', placeholder: 'avatar', key: 'avatar'}
   ]
 }
