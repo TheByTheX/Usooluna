@@ -3,140 +3,483 @@
     "id": "0",
     "rels": {
       "spouses": [
-        "1ce3b3fe-0ed1-47f2-840a-a592e16ea868"
+        "33cf09f0-e610-46a9-aac6-557923babf9b"
       ],
       "children": [
-        "6fbfdc15-110b-437e-a9ff-a1b90ca06a2d",
-        "5afc0964-8a28-4979-b4ee-9e24f1d225bc",
-        "3be97553-69d6-4e48-956e-1d1b2e8576c4",
-        "5315875f-e665-4ee2-b932-437b5bd05822"
+        "834b8862-619c-4f00-96de-34e87604d6fa",
+        "bdc2edc6-76fe-4df7-a627-3e8154d78392",
+        "02224714-e99f-43aa-8626-c59aa73394ee",
+        "40c06630-959b-4c36-8a74-b2aa5791e140"
       ]
     },
     "data": {
       "first name": "Khasim Khan ",
       "last name": "Kutagulla",
-      "birthday": "1970",
-      "avatar": "https://static8.depositphotos.com/1009634/988/v/950/depositphotos_9883921-stock-illustration-no-user-profile-picture.jpg",
+      "birthday": "1938",
+      "avatar": "",
       "gender": "M",
-      "Occupation": "Retired Chief Engineer (Electricty Board AP)"
+      "occupation": "Retd. Chief Engineer (APSEB)"
     }
   },
   {
-    "id": "6fbfdc15-110b-437e-a9ff-a1b90ca06a2d",
-    "data": {
-      "gender": "F",
-      "first name": "Asmath Ara",
-      "last name": "Kutagulla",
-      "birthday": "",
-      "avatar": "",
-      "Occupation": "Home Maker"
-    },
-    "rels": {
-      "father": "0",
-      "mother": "1ce3b3fe-0ed1-47f2-840a-a592e16ea868"
-    }
-  },
-  {
-    "id": "5afc0964-8a28-4979-b4ee-9e24f1d225bc",
-    "data": {
-      "gender": "F",
-      "first name": "Muneera Banu",
-      "last name": "Kutagulla",
-      "birthday": "",
-      "avatar": "",
-      "Occupation": "Home Maker"
-    },
-    "rels": {
-      "father": "0",
-      "mother": "1ce3b3fe-0ed1-47f2-840a-a592e16ea868"
-    }
-  },
-  {
-    "id": "3be97553-69d6-4e48-956e-1d1b2e8576c4",
-    "data": {
-      "gender": "M",
-      "first name": "Raheem Khan",
-      "last name": "Kutagulla",
-      "birthday": "",
-      "avatar": "",
-      "Occupation": "Software Engineer"
-    },
-    "rels": {
-      "father": "0",
-      "mother": "1ce3b3fe-0ed1-47f2-840a-a592e16ea868"
-    }
-  },
-  {
-    "id": "1ce3b3fe-0ed1-47f2-840a-a592e16ea868",
+    "id": "33cf09f0-e610-46a9-aac6-557923babf9b",
     "data": {
       "gender": "F",
       "first name": "Sajida Begum",
       "last name": "Kutagulla",
       "birthday": "",
-      "avatar": "",
-      "Occupation": "Home Maker"
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
     },
     "rels": {
       "spouses": [
         "0"
       ],
       "children": [
-        "6fbfdc15-110b-437e-a9ff-a1b90ca06a2d",
-        "5afc0964-8a28-4979-b4ee-9e24f1d225bc",
-        "3be97553-69d6-4e48-956e-1d1b2e8576c4",
-        "5315875f-e665-4ee2-b932-437b5bd05822"
+        "834b8862-619c-4f00-96de-34e87604d6fa",
+        "bdc2edc6-76fe-4df7-a627-3e8154d78392",
+        "02224714-e99f-43aa-8626-c59aa73394ee",
+        "40c06630-959b-4c36-8a74-b2aa5791e140"
       ]
     }
   },
   {
-    "id": "5315875f-e665-4ee2-b932-437b5bd05822",
+    "id": "834b8862-619c-4f00-96de-34e87604d6fa",
     "data": {
       "gender": "F",
-      "first name": "Rafath Hajira",
+      "first name": "Asmath Ara",
       "last name": "Kutagulla",
       "birthday": "",
-      "avatar": "",
-      "Occupation": "Home Maker"
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "33cf09f0-e610-46a9-aac6-557923babf9b",
+      "father": "0",
+      "spouses": [
+        "16c23337-aa49-4f46-adfe-613fc9a90dae"
+      ],
+      "children": [
+        "9a089b0c-bad6-47d3-889b-e42211075239",
+        "4d75123f-db22-48ff-8921-fcf961c0d5ce"
+      ]
+    }
+  },
+  {
+    "id": "bdc2edc6-76fe-4df7-a627-3e8154d78392",
+    "data": {
+      "gender": "F",
+      "first name": "Muneera Banu",
+      "last name": "Kutagulla",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "33cf09f0-e610-46a9-aac6-557923babf9b",
+      "father": "0",
+      "spouses": [
+        "afad822c-a964-4fd6-a298-dc100a93546a"
+      ],
+      "children": [
+        "ce2692ec-5037-44ee-910b-bdd4568bc6c6",
+        "87a40e98-cdff-4ef0-a67b-248aa0a0f198",
+        "7531f427-929b-49dc-ac07-c55e636ecd38"
+      ]
+    }
+  },
+  {
+    "id": "02224714-e99f-43aa-8626-c59aa73394ee",
+    "data": {
+      "gender": "M",
+      "first name": "Raheem Khan",
+      "last name": "Kutagulla",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Software Engg.",
+      "avatar": ""
     },
     "rels": {
       "father": "0",
-      "mother": "1ce3b3fe-0ed1-47f2-840a-a592e16ea868",
-      "spouses": [],
-      "children": [
-        "381267b1-5a4c-4924-b99a-b3b91408de2e"
-      ]
-    }
-  },
-  {
-    "id": "381267b1-5a4c-4924-b99a-b3b91408de2e",
-    "data": {
-      "gender": "M",
-      "first name": "Mashhood Alam",
-      "last name": "",
-      "birthday": "2002",
-      "avatar": "./static/imgs/3lm.jpeg",
-      "Occupation": "Student"
-    },
-    "rels": {
-      "mother": "5315875f-e665-4ee2-b932-437b5bd05822",
+      "mother": "33cf09f0-e610-46a9-aac6-557923babf9b",
       "spouses": [
-        "6a0a8db2-a384-4ba2-9d1e-1f70ae58ee09"
+        "ef323125-337c-42fd-b318-123f8186c2d4"
+      ],
+      "children": [
+        "d6228987-d1c5-43ef-9be1-431445078cfa",
+        "2a13e238-f9da-48f5-9d19-a6ac1339603f",
+        "0be4f907-c891-49ff-b293-5bc57d506f75",
+        "6145ece7-3a90-4d7a-9d87-24fe0f7526bb"
       ]
     }
   },
   {
-    "id": "6a0a8db2-a384-4ba2-9d1e-1f70ae58ee09",
+    "id": "40c06630-959b-4c36-8a74-b2aa5791e140",
     "data": {
       "gender": "F",
-      "first name": "Fatima",
+      "first name": "Rafath Hajara",
+      "last name": "Kutagulla",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "0",
+      "mother": "33cf09f0-e610-46a9-aac6-557923babf9b"
+    }
+  },
+  {
+    "id": "9a089b0c-bad6-47d3-889b-e42211075239",
+    "data": {
+      "gender": "F",
+      "first name": "Daughter 1",
       "last name": "",
-      "birthday": "2003",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "16c23337-aa49-4f46-adfe-613fc9a90dae",
+      "mother": "834b8862-619c-4f00-96de-34e87604d6fa",
+      "spouses": [
+        "f93e14a0-0ac0-4dbf-87ba-ad60fd849cee"
+      ],
+      "children": [
+        "3e858837-8ebf-47bc-b1df-0ef175f33027"
+      ]
+    }
+  },
+  {
+    "id": "16c23337-aa49-4f46-adfe-613fc9a90dae",
+    "data": {
+      "gender": "M",
+      "first name": "Nasir ",
+      "last name": "Mohammad",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
       "avatar": ""
     },
     "rels": {
       "spouses": [
-        "381267b1-5a4c-4924-b99a-b3b91408de2e"
+        "834b8862-619c-4f00-96de-34e87604d6fa"
+      ],
+      "children": [
+        "9a089b0c-bad6-47d3-889b-e42211075239",
+        "4d75123f-db22-48ff-8921-fcf961c0d5ce"
       ]
+    }
+  },
+  {
+    "id": "4d75123f-db22-48ff-8921-fcf961c0d5ce",
+    "data": {
+      "gender": "F",
+      "first name": "Daughter 2",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "16c23337-aa49-4f46-adfe-613fc9a90dae",
+      "mother": "834b8862-619c-4f00-96de-34e87604d6fa"
+    }
+  },
+  {
+    "id": "f93e14a0-0ac0-4dbf-87ba-ad60fd849cee",
+    "data": {
+      "gender": "M",
+      "first name": "Sadiq Hussain",
+      "last name": "Mohammad",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "9a089b0c-bad6-47d3-889b-e42211075239"
+      ],
+      "children": [
+        "3e858837-8ebf-47bc-b1df-0ef175f33027"
+      ]
+    }
+  },
+  {
+    "id": "3e858837-8ebf-47bc-b1df-0ef175f33027",
+    "data": {
+      "gender": "M",
+      "first name": "Khalid Taha ",
+      "last name": "Mohammad",
+      "birthday": "2023",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "9a089b0c-bad6-47d3-889b-e42211075239",
+      "father": "f93e14a0-0ac0-4dbf-87ba-ad60fd849cee"
+    }
+  },
+  {
+    "id": "afad822c-a964-4fd6-a298-dc100a93546a",
+    "data": {
+      "gender": "M",
+      "first name": "Riazur Rahaman",
+      "last name": "Mohammad",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Principal (MANUU)",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "bdc2edc6-76fe-4df7-a627-3e8154d78392"
+      ],
+      "children": [
+        "ce2692ec-5037-44ee-910b-bdd4568bc6c6",
+        "87a40e98-cdff-4ef0-a67b-248aa0a0f198",
+        "7531f427-929b-49dc-ac07-c55e636ecd38"
+      ]
+    }
+  },
+  {
+    "id": "ce2692ec-5037-44ee-910b-bdd4568bc6c6",
+    "data": {
+      "gender": "M",
+      "first name": "Ataaur Rahaman",
+      "last name": "Mohammed",
+      "birthday": "1999",
+      "deathyear": "",
+      "occupation": "Software Engg.",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "bdc2edc6-76fe-4df7-a627-3e8154d78392",
+      "father": "afad822c-a964-4fd6-a298-dc100a93546a",
+      "spouses": [
+        "a6f4d7a2-0f31-49b5-87df-ee6b34c3c23c"
+      ]
+    }
+  },
+  {
+    "id": "87a40e98-cdff-4ef0-a67b-248aa0a0f198",
+    "data": {
+      "gender": "M",
+      "first name": "Nawaalur Rahaman",
+      "last name": "Mohammed",
+      "birthday": "2006",
+      "deathyear": "",
+      "occupation": "Student",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "afad822c-a964-4fd6-a298-dc100a93546a",
+      "mother": "bdc2edc6-76fe-4df7-a627-3e8154d78392"
+    }
+  },
+  {
+    "id": "7531f427-929b-49dc-ac07-c55e636ecd38",
+    "data": {
+      "gender": "M",
+      "first name": "Abdur Rahaman",
+      "last name": "Mohammed",
+      "birthday": "2010",
+      "deathyear": "",
+      "occupation": "Student",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "afad822c-a964-4fd6-a298-dc100a93546a",
+      "mother": "bdc2edc6-76fe-4df7-a627-3e8154d78392"
+    }
+  },
+  {
+    "id": "a6f4d7a2-0f31-49b5-87df-ee6b34c3c23c",
+    "data": {
+      "gender": "F",
+      "first name": "Arfa Ameena",
+      "last name": "Shaik",
+      "birthday": "2003",
+      "deathyear": "",
+      "occupation": "Student",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "ce2692ec-5037-44ee-910b-bdd4568bc6c6"
+      ],
+      "father": "78cfe2c6-b2a3-4f9f-b34c-6e723af24571",
+      "mother": "1b9339e8-9e23-4a3c-b33a-3e14bd5399a4"
+    }
+  },
+  {
+    "id": "78cfe2c6-b2a3-4f9f-b34c-6e723af24571",
+    "data": {
+      "gender": "M",
+      "first name": "Shahul Hameed",
+      "last name": "Shaik",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "a6f4d7a2-0f31-49b5-87df-ee6b34c3c23c",
+        "7d1fe558-06d9-46f3-a76f-7f62c92c1a13",
+        "4373b109-6a39-40f9-ac9c-25c231d3ddf0"
+      ],
+      "spouses": [
+        "1b9339e8-9e23-4a3c-b33a-3e14bd5399a4"
+      ]
+    }
+  },
+  {
+    "id": "1b9339e8-9e23-4a3c-b33a-3e14bd5399a4",
+    "data": {
+      "gender": "F",
+      "first name": "Shahana Azma",
+      "last name": "Shaik",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "78cfe2c6-b2a3-4f9f-b34c-6e723af24571"
+      ],
+      "children": [
+        "a6f4d7a2-0f31-49b5-87df-ee6b34c3c23c",
+        "7d1fe558-06d9-46f3-a76f-7f62c92c1a13",
+        "4373b109-6a39-40f9-ac9c-25c231d3ddf0"
+      ]
+    }
+  },
+  {
+    "id": "7d1fe558-06d9-46f3-a76f-7f62c92c1a13",
+    "data": {
+      "gender": "M",
+      "first name": "Sadath Ameen",
+      "last name": "Shaik",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Student",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "1b9339e8-9e23-4a3c-b33a-3e14bd5399a4",
+      "father": "78cfe2c6-b2a3-4f9f-b34c-6e723af24571"
+    }
+  },
+  {
+    "id": "4373b109-6a39-40f9-ac9c-25c231d3ddf0",
+    "data": {
+      "gender": "F",
+      "first name": "Daughter 2",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "1b9339e8-9e23-4a3c-b33a-3e14bd5399a4",
+      "father": "78cfe2c6-b2a3-4f9f-b34c-6e723af24571"
+    }
+  },
+  {
+    "id": "ef323125-337c-42fd-b318-123f8186c2d4",
+    "data": {
+      "gender": "F",
+      "first name": "Farzana",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "02224714-e99f-43aa-8626-c59aa73394ee"
+      ],
+      "children": [
+        "d6228987-d1c5-43ef-9be1-431445078cfa",
+        "2a13e238-f9da-48f5-9d19-a6ac1339603f",
+        "0be4f907-c891-49ff-b293-5bc57d506f75",
+        "6145ece7-3a90-4d7a-9d87-24fe0f7526bb"
+      ]
+    }
+  },
+  {
+    "id": "d6228987-d1c5-43ef-9be1-431445078cfa",
+    "data": {
+      "gender": "F",
+      "first name": "Daughter 1",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Student",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "ef323125-337c-42fd-b318-123f8186c2d4",
+      "father": "02224714-e99f-43aa-8626-c59aa73394ee"
+    }
+  },
+  {
+    "id": "2a13e238-f9da-48f5-9d19-a6ac1339603f",
+    "data": {
+      "gender": "M",
+      "first name": "Ashfaq Abdullah",
+      "last name": "Mohammad",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Student",
+      "avatar": "./static/imgs/ashfaq.jpeg"
+    },
+    "rels": {
+      "mother": "ef323125-337c-42fd-b318-123f8186c2d4",
+      "father": "02224714-e99f-43aa-8626-c59aa73394ee"
+    }
+  },
+  {
+    "id": "0be4f907-c891-49ff-b293-5bc57d506f75",
+    "data": {
+      "gender": "F",
+      "first name": "Daughter 2",
+      "last name": "",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Student",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "ef323125-337c-42fd-b318-123f8186c2d4",
+      "father": "02224714-e99f-43aa-8626-c59aa73394ee"
+    }
+  },
+  {
+    "id": "6145ece7-3a90-4d7a-9d87-24fe0f7526bb",
+    "data": {
+      "gender": "M",
+      "first name": "Ishaq Abdullah",
+      "last name": "Mohammad",
+      "birthday": "",
+      "deathyear": "",
+      "occupation": "Student",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "ef323125-337c-42fd-b318-123f8186c2d4",
+      "father": "02224714-e99f-43aa-8626-c59aa73394ee"
     }
   }
 ]
