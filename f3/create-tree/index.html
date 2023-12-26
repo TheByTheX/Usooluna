@@ -47,11 +47,15 @@
     <div class="col s12 m9">
       <div id="FamilyChart" style="position: relative"></div>
     </div>
-    <div class="col s12 m3">
+    <div class="col s12 m3" >
       <div id="edit_cont" class="card p5"></div>
       <div id="display_cont" class="card p5"></div>
     </div>
     <div class="col m12">
+      <button type="button" onclick="json_download()">Download data.json</button>
+      <button type="button" onclick="encrypt_download()">Download data.enc</button>
+    </div>
+    <div class="col m12" hidden>
       <h5>Data</h5>
       <div class="card p5">
         <textarea id="textarea"></textarea>
@@ -86,6 +90,43 @@
     modal.setAttribute("class", "modal")
     M.Modal.init(modal, {});
   });
+
+ 
+  function encrypt_download() {
+    const textarea = document.querySelector("#textarea")
+    const data = JSON.parse(textarea.value)
+    // alert(data);
+    // console.log(data);  
+
+    const pwd = prompt("Enter pass to Encrypt: ");
+    const encrypted = CryptoJS.AES.encrypt(JSON.stringify(data), pwd);
+
+    // save
+    const encodedEncrypted = encrypted.toString();
+    const blob = new Blob([encodedEncrypted], { type: 'text/plain' }); // Adjust MIME type as needed
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'data.enc'; // Desired filename
+    link.click();
+  }
+
+  function json_download() {
+    const textarea = document.querySelector("#textarea")
+    const data = JSON.parse(textarea.value)
+    // alert(data);
+    // console.log(data);  
+
+    // save
+    // const encodedEncrypted = encrypted.toString();
+    const dataObj = JSON.stringify(data, null, 2)
+    const blob = new Blob([dataObj], { type: 'application/json' }); // Adjust MIME type as needed
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'data.json'; // Desired filename
+    link.click();
+  }
 </script>
 </body>
 </html>
