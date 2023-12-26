@@ -86,17 +86,28 @@ async function firstNode_error() {
 
 function firstNode() {
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', '../../data_dump.json', false); // Synchronous request
+  xhr.open('GET', '../../data.enc', false); // Synchronous request
   xhr.onload = () => {
     if (xhr.status === 200) {
       console.log("success")
     } else {
       // Handle errors
-      console.error('Error fetching JSON data:', xhr.statusText);
+      console.error('Error fetching data:', xhr.statusText);
     }
   };
   xhr.send();
-  return JSON.parse(xhr.responseText);
+  const encrypted = xhr.responseText;
+  // alert("encrypted : " + encrypted)
+  const pwd = prompt("Enter password: ");
+  const decrypted = CryptoJS.AES.decrypt(encrypted, pwd);
+  // alert("decrypted : " + decrypted)
+  // console.log(decrypted);
+
+  var data = decrypted.toString(CryptoJS.enc.Utf8);
+  // console.log(data);
+  const dataObj = JSON.parse(data);
+
+  return dataObj;
 }
 
 function cardEditParams() {
