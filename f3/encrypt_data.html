@@ -7,7 +7,7 @@
     <body>
         <script>
             var pwd = prompt("Enter password:");
-            const data_path = prompt("Enter path to encrypt:");
+            const data_path = prompt("Enter data path to encrypt (../data.json):");
 
             fetch(data_path).then(r => r.json()).then(data => {
                 alert("data : " + data);
