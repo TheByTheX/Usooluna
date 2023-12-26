@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Encrypt</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    </head>
+
+    <body>
+        <script>
+            var pwd = prompt("Enter password:");
+            const data_path = prompt("Enter data path to encrypt (../data.json):");
+
+            fetch(data_path).then(r => r.json()).then(data => {
+                alert("data : " + data);
+                const encrypted = CryptoJS.AES.encrypt(JSON.stringify(data), pwd);
+                alert("encrypted : " + encrypted);
+                console.log(encrypted);
+                
+
+                // save
+                const encodedEncrypted = encrypted.toString();
+                const blob = new Blob([encodedEncrypted], { type: 'text/plain' }); // Adjust MIME type as needed
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = 'data.enc'; // Desired filename
+                link.click();
+            });
+
+
+        </script>
+    </body>
+</html>

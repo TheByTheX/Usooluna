@@ -65,7 +65,7 @@ import {Form} from "../../src/view/elements/Form.js"
 // # FIXME
 async function firstNode_error() {
   try {
-    const response = await fetch('../../data.json');
+    const response = await fetch('../../data_dump.json');
     const data = await response.json();
     // const data = JSON.parse(response)
     // Ensure the data structure is compatible with f3's requirements
@@ -86,7 +86,7 @@ async function firstNode_error() {
 
 function firstNode() {
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', '../../data.json', false); // Synchronous request
+  xhr.open('GET', '../../data_dump.json', false); // Synchronous request
   xhr.onload = () => {
     if (xhr.status === 200) {
       console.log("success")

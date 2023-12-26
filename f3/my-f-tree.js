@@ -1,6 +1,23 @@
 import f3 from '../src/index.js'
 
-fetch("./data.json").then(r => r.json()).then(data => {
+var pwd = prompt("Enter password:");
+
+fetch("./data.enc").then(r => r.text()).then(encrypted => {
+// fetch("./data.enc").then(r => r.text()).then(encrypted => {
+  // alert("pwd  : " + pwd);
+  // console.log(encrypted);
+
+  const decrypted = CryptoJS.AES.decrypt(encrypted, pwd);
+  // alert("decrypted : " + decrypted)
+  // console.log(decrypted);
+
+  var data = decrypted.toString(CryptoJS.enc.Utf8);
+  // console.log(data);
+  const dataObj = JSON.parse(data);
+  // console.log(dataObj); 
+  return dataObj
+})
+.then(data => {
   const store = f3.createStore({
       data,
       node_separation: 250,
